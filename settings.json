@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "cucumberautocomplete.steps": ["steps/*.ts"],
+  "cucumberautocomplete.syncfeatures": "features/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": true
+}
