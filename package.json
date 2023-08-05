@@ -1,0 +1,31 @@
+{
+  "name": "test-automation-playwright",
+  "version": "1.0.0",
+  "description": "test automation framework for xxx",
+  "main": "index.js",
+  "scripts": {
+    "report": "node cucumber.report.js",
+    "test": "npx cucumber-js & npm run report",
+    "test:ci": "npx cucumber-js -p ci & npm run report"
+  },
+  "keywords": [
+    "playwright",
+    "cucumber",
+    "typescript",
+    "xxx",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.3.0",
+    "@playwright/test": "^1.36.1",
+    "@types/mssql": "^8.1.2",
+    "cucumber-html-reporter": "^7.1.1",
+    "mssql": "^9.1.1",
+    "node-xlsx": "^0.23.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.1.6"
+  }
+}
